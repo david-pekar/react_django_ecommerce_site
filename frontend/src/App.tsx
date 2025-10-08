@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './components/layout/navbar';
 function App() {
   const [message, setMessage] = useState("");
 
@@ -13,6 +13,7 @@ function App() {
   }, []);
   return (
     <div>
+      <Navbar />
       <h1>Hello World from React</h1>
       <p>Backend says: {message}</p>
     </div>

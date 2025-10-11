@@ -3,10 +3,13 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#123456',   // AppBar, primary buttons
+      main: '#123456',  // Navbar
     },
     secondary: {
-      main: '#abcdef',   // accents, secondary buttons
+      main: '#abcdef',  // Buttons
+    },
+    background: {
+      default: '#f4f6f8',  // general background (page)
     },
   },
 });
